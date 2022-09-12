@@ -18,18 +18,18 @@
 	}
 
 	body {
-		@apply m-0 bg-darkCharcoal font-poppins text-2xl text-lightGray antialiased;
+		@apply m-0 bg-lightGray font-poppins text-2xl text-darkCharcoal antialiased;
 	}
 }
 
 @layer components {
 	input,
 	textarea {
-		@apply box-border block rounded-lg border-[1px] border-solid border-darkCharcoal bg-white p-2 text-xl text-lightGray;
+		@apply box-border block rounded-lg border-[1px] border-solid border-lightGray bg-white p-2 text-xl text-darkCharcoal;
 	}
 
 	.page-title {
-		@apply my-10 mx-auto text-center text-white;
+		@apply my-10 mx-auto text-center text-darkCharcoal;
 	}
 
 	.loading,
