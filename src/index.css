@@ -64,4 +64,32 @@
 	.home {
 		@apply my-[60px] mx-auto max-w-[1200px];
 	}
+
+	.recipe-list {
+		@apply my-10 mx-auto grid max-w-[1200px] grid-cols-3 gap-10;
+	}
+
+	.recipe-list .card {
+		@apply relative rounded-md bg-white p-5 text-darkCharcoal shadow-md shadow-darkCharcoal transition-all duration-300 ease-in;
+	}
+
+	.recipe-list .card:hover {
+		@apply rotate-3;
+	}
+
+	.recipe-list .card h3 {
+		@apply mb-2 text-lightCharcoal;
+	}
+
+	.recipe-list .card p {
+		@apply text-base text-midGray;
+	}
+
+	.recipe-list .card div {
+		@apply my-5 mx-0 text-xs leading-6 text-midGray;
+	}
+
+	.recipe-list .card a {
+		@apply mx-auto mt-5 mb-0 block w-[120px] rounded bg-gray p-2 text-center text-base text-midGray no-underline;
+	}
 }
