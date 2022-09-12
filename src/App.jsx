@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
+import Navbar from './components/navbar';
 import Home from './pages/home/home';
 import Create from './pages/create/create';
 import Search from './pages/search/search';
@@ -9,6 +10,7 @@ const App = () => {
 	return (
 		<div className="app">
 			<BrowserRouter>
+				<Navbar />
 				<Routes>
 					<Route path="/" element={<Home />} />
 					<Route index element={<Home />} />

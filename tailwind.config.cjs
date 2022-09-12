@@ -9,6 +9,7 @@ module.exports = {
 			colors: {
 				lightGray: '#dfdfdf',
 				darkCharcoal: '#333333',
+				purple: '#58249c',
 			},
 		},
 	},

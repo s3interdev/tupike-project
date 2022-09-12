@@ -40,4 +40,24 @@
 	.app {
 		@apply min-h-full;
 	}
+
+	.navbar {
+		@apply bg-purple p-5 text-white;
+	}
+
+	.navbar nav {
+		@apply my-0 mx-auto flex max-w-[1200px] items-center;
+	}
+
+	.navbar a.brand {
+		@apply mr-auto text-4xl font-bold text-white no-underline;
+	}
+
+	.navbar a:last-child {
+		@apply ml-10 rounded border-[1px] border-solid border-white p-2 text-white no-underline;
+	}
+
+	.navbar a:last-child:hover {
+		@apply bg-white text-darkCharcoal;
+	}
 }
