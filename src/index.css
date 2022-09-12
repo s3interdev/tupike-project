@@ -5,7 +5,39 @@
 @tailwind utilities;
 
 @layer base {
+	html,
+	body,
+	#root {
+		@apply h-full;
+	}
+
+	h1,
+	h2,
+	h3 {
+		@apply m-0;
+	}
+
 	body {
-		@apply font-poppins text-neutral-800 antialiased;
+		@apply m-0 bg-darkCharcoal font-poppins text-2xl text-lightGray antialiased;
+	}
+}
+
+@layer components {
+	input,
+	textarea {
+		@apply box-border block rounded-lg border-[1px] border-solid border-darkCharcoal bg-white p-2 text-xl text-lightGray;
+	}
+
+	.page-title {
+		@apply my-10 mx-auto text-center text-white;
+	}
+
+	.loading,
+	.error {
+		@apply my-10 mx-auto text-center;
+	}
+
+	.app {
+		@apply min-h-full;
 	}
 }
