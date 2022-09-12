@@ -82,14 +82,14 @@
 	}
 
 	.recipe-list .card p {
-		@apply text-base text-midGray;
+		@apply text-base text-darkGray;
 	}
 
 	.recipe-list .card div {
-		@apply my-5 mx-0 text-xs leading-6 text-midGray;
+		@apply my-5 mx-0 text-xs leading-6 text-darkGray;
 	}
 
 	.recipe-list .card a {
-		@apply mx-auto mt-5 mb-0 block w-[120px] rounded bg-gray p-2 text-center text-base text-midGray no-underline;
+		@apply mx-auto mt-5 mb-0 block w-[120px] rounded bg-gray p-2 text-center text-base text-darkGray no-underline;
 	}
 }
