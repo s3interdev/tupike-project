@@ -29,7 +29,7 @@
 	}
 
 	.page-title {
-		@apply my-10 mx-auto text-center text-darkCharcoal;
+		@apply my-10 mx-auto text-center text-2xl font-bold text-darkCharcoal;
 	}
 
 	.loading,
@@ -91,5 +91,29 @@
 
 	.recipe-list .card a {
 		@apply mx-auto mt-5 mb-0 block w-[120px] rounded bg-gray p-2 text-center text-base text-darkGray no-underline;
+	}
+
+	.recipe {
+		@apply my-10 mx-auto box-border max-w-[1200px] bg-white p-10 text-center;
+	}
+
+	.recipe ul {
+		@apply mt-0 flex justify-center p-0;
+	}
+
+	.recipe li {
+		@apply mr-[10px] list-none text-darkGray;
+	}
+
+	.recipe li::after {
+		@apply content-[','];
+	}
+
+	.recipe li:last-child::after {
+		@apply content-['.'];
+	}
+
+	.method {
+		@apply m-2 text-left leading-7;
 	}
 }
