@@ -5,7 +5,12 @@ module.exports = {
 		fontFamily: {
 			poppins: 'Poppins, sans-serif',
 		},
-		extend: {},
+		extend: {
+			colors: {
+				lightGray: '#dfdfdf',
+				darkCharcoal: '#333333',
+			},
+		},
 	},
 	plugins: [
 		require('@tailwindcss/aspect-ratio'),
