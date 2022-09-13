@@ -7,8 +7,12 @@ module.exports = {
 		},
 		extend: {
 			colors: {
-				lightGray: '#dfdfdf',
 				darkCharcoal: '#333333',
+				lightCharcoal: '#555555',
+				darkGray: '#999999',
+				gray: '#e2e2e2',
+				lightGray: '#dfdfdf',
+				purple: '#58249c',
 			},
 		},
 	},
