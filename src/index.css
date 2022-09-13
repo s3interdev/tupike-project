@@ -156,4 +156,12 @@
 	.theme-buttons div {
 		@apply ml-[15px] inline-block h-5 w-5 cursor-pointer rounded-full;
 	}
+
+	.mode-toggle {
+		@apply mr-auto;
+	}
+
+	.mode-toggle img {
+		@apply h-6 w-6 cursor-pointer;
+	}
 }
