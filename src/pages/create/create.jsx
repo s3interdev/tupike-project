@@ -39,7 +39,7 @@ const Create = () => {
 
 	return (
 		<div className="create">
-			<h2 className="page-title">Add a New Recipe</h2>
+			<h2 className="page-title">Add New Recipe</h2>
 			<form onSubmit={handleSubmit}>
 				<label>
 					<span>Recipe Title:</span>
@@ -61,7 +61,6 @@ const Create = () => {
 							value={newIngredient}
 							ref={ingredientInput}
 							className="min-w-[380px] rounded-md"
-							required
 						/>
 						<button onClick={handleAddIngredinet} className="btn">
 							Add
