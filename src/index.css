@@ -25,7 +25,7 @@
 @layer components {
 	input,
 	textarea {
-		@apply box-border block min-w-full rounded-xl border-[1px] border-none border-lightGray bg-white p-2 text-lg text-darkCharcoal;
+		@apply box-border block rounded-xl border-[1px] border-none border-lightGray bg-white p-2 text-lg text-darkCharcoal;
 	}
 
 	.page-title {
@@ -131,5 +131,12 @@
 
 	.create button {
 		@apply my-[30px] mx-auto block w-[100px] cursor-pointer rounded border-0 bg-purple py-2 px-5 text-base text-white no-underline;
+	}
+
+	.ingredients {
+		@apply flex items-center;
+	}
+	.ingredients button {
+		@apply mt-0 mr-0 mb-0 ml-[10px];
 	}
 }

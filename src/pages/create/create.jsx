@@ -1,4 +1,5 @@
 import { useState, useRef } from 'react';
+import { useFetch } from '../../hooks/useFetch';
 
 const Create = () => {
 	const [title, setTitle] = useState('');
@@ -8,9 +9,11 @@ const Create = () => {
 	const [ingredients, setIngredients] = useState([]);
 	const ingredientInput = useRef(null);
 
+	const { postData, data, error } = useFetch('http://localhost:3000/recipes', 'POST');
+
 	const handleSubmit = (e) => {
 		e.preventDefault();
-		console.log(title, method, cookingTime, ingredients);
+		postData({ title, ingredients, method, cookingTime: cookingTime + ' minutes' });
 	};
 
 	const handleAddIngredinet = (e) => {
@@ -36,6 +39,7 @@ const Create = () => {
 						onChange={(e) => setTitle(e.target.value)}
 						value={title}
 						required
+						className="min-w-full"
 					/>
 				</label>
 
@@ -47,6 +51,7 @@ const Create = () => {
 							onChange={(e) => setNewIngredient(e.target.value)}
 							value={newIngredient}
 							ref={ingredientInput}
+							className="min-w-[380px]"
 						/>
 						<button onClick={handleAddIngredinet} className="btn">
 							Add
@@ -67,6 +72,7 @@ const Create = () => {
 						value={method}
 						required
 						rows="5"
+						className="min-w-full"
 					/>
 				</label>
 
@@ -77,6 +83,7 @@ const Create = () => {
 						onChange={(e) => setCookingTime(e.target.value)}
 						value={cookingTime}
 						required
+						className="min-w-full"
 					/>
 				</label>
 
