@@ -148,4 +148,12 @@
 	.search-bar input {
 		@apply ml-[10px];
 	}
+
+	.theme-selector {
+		@apply my-5 mx-auto flex max-w-[1200px] items-center justify-end;
+	}
+
+	.theme-buttons div {
+		@apply ml-[15px] inline-block h-5 w-5 cursor-pointer rounded-full;
+	}
 }
