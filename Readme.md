@@ -4,9 +4,10 @@ React.JS project created to learn about
 
 1. State and useState
 1. Components and Props
-1. Styling React.JS with CSS and Tailwind CSS
+1. Styling React.JS with Tailwind CSS
 1. useEffect hook
-1. The React.JS Router
+1. React.JS Router
+1. React.JS Context and Reducers
 
 The project also puts into practice proper management of Git by organizing code into staging and production ready branches so that there is always a version of the code ready to go.
 
@@ -14,7 +15,7 @@ Finally, the repetitive process of building and deploying the project to product
 
 ## Getting Started
 
-1. Install JSON-Server
+1. Install JSON-Server globally on your computer
 
 ```
 npm install -g json-server
