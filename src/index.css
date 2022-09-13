@@ -41,6 +41,10 @@
 		@apply min-h-full;
 	}
 
+	.app.dark {
+		@apply bg-darkCharcoal;
+	}
+
 	.navbar {
 		@apply bg-purple p-5 text-white;
 	}
@@ -113,6 +117,20 @@
 		@apply content-['.'];
 	}
 
+	.recipe.dark {
+		@apply bg-lightCharcoal text-gray;
+	}
+
+	.recipe-list .card.dark {
+		@apply bg-lightCharcoal;
+	}
+
+	.recipe-list .card.dark p,
+	.recipe-list .card.dark h3,
+	.recipe-list .card.dark div {
+		@apply text-gray;
+	}
+
 	.method {
 		@apply m-2 text-left leading-7;
 	}
@@ -163,5 +181,13 @@
 
 	.mode-toggle img {
 		@apply h-6 w-6 cursor-pointer;
+	}
+
+	.dark .page-title,
+	.dark .loading,
+	.dark .error,
+	.dark label,
+	.dark p {
+		@apply text-gray;
 	}
 }
