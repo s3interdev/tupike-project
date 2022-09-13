@@ -1,5 +1,4 @@
 import { useFetch } from '../../hooks/useFetch';
-
 import RecipeList from '../../components/recipe-list';
 
 const Home = () => {
