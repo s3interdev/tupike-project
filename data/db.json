@@ -1,25 +1,78 @@
 {
-	"recipes": [
-		{
-			"id": "1",
-			"title": "Veggie Stew",
-			"ingredients": ["1 Carrot", "1 Leek", "200g Tofu", "300ml Veg stock"],
-			"method": "1. Pre-heat the oven to 200C/3C/gas 5. Place the carrot, leek and tofu in a large bowl. Add the stock and mix well. 2. Add the rest of the ingredients and mix well. 3. Place the mixture in a large bowl and cover with a lid. 4. Place the lid on the oven and cook for 40 minutes. 5. Serve with a slaw of your choice",
-			"cookingTime": "45 minutes"
-		},
-		{
-			"id": "2",
-			"title": "Veggie Pizza",
-			"ingredients": ["1 Base", "Tomata pasata", "1 Green pepper", "100g Mushrooms"],
-			"method": "1. Pre-heat the oven to 200C/3C/gas 5. Add the pasata, green pepper and mushrooms to the base. Place the lid on the oven and cook for 30 minutes. 5. Serve with a slaw of your choice",
-			"cookingTime": "35 minutes"
-		},
-		{
-			"id": "3",
-			"title": "Greek Salad",
-			"ingredients": ["1 Onion", "1 Block of Feta", "Olives", "Tomatoes", "Olive Oil"],
-			"method": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse minima ex rem quis similique eum ratione quaerat, voluptas molestias ut repudiandae delectus voluptates. Eius esse at tenetur ab accusamus excepturi?",
-			"cookingTime": "35 minutes"
-		}
-	]
+  "recipes": [
+    {
+      "id": "1",
+      "title": "Veggie Stew",
+      "ingredients": [
+        "1 Carrot",
+        "1 Leek",
+        "200g Tofu",
+        "300ml Veg stock"
+      ],
+      "method": "1. Pre-heat the oven to 200C/3C/gas 5. Place the carrot, leek and tofu in a large bowl. Add the stock and mix well. 2. Add the rest of the ingredients and mix well. 3. Place the mixture in a large bowl and cover with a lid. 4. Place the lid on the oven and cook for 40 minutes. 5. Serve with a slaw of your choice",
+      "cookingTime": "45 minutes"
+    },
+    {
+      "id": "2",
+      "title": "Veggie Pizza",
+      "ingredients": [
+        "1 Base",
+        "Tomata pasata",
+        "1 Green pepper",
+        "100g Mushrooms"
+      ],
+      "method": "1. Pre-heat the oven to 200C/3C/gas 5. Add the pasata, green pepper and mushrooms to the base. Place the lid on the oven and cook for 30 minutes. 5. Serve with a slaw of your choice",
+      "cookingTime": "35 minutes"
+    },
+    {
+      "id": "3",
+      "title": "Greek Salad",
+      "ingredients": [
+        "1 Onion",
+        "1 Block of Feta",
+        "Olives",
+        "Tomatoes",
+        "Olive Oil"
+      ],
+      "method": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse minima ex rem quis similique eum ratione quaerat, voluptas molestias ut repudiandae delectus voluptates. Eius esse at tenetur ab accusamus excepturi?",
+      "cookingTime": "35 minutes"
+    },
+    {
+      "title": "Easy Butter Chicken",
+      "ingredients": [
+        "500g skinless boneless chicken thighs",
+        "1 lemon, juiced",
+        "2 tsp ground cumin",
+        "2 tsp paprika",
+        "1-2 tsp hot chilli powder",
+        "200g natural yogurt"
+      ],
+      "method": "STEP 1\nIn a medium bowl, mix all the marinade ingredients with some seasoning. Chop the chicken into bite-sized pieces and toss with the marinade. Cover and chill in the fridge for 1 hr or overnight.\n\nSTEP 2\nIn a large, heavy saucepan, heat the oil. Add the onion, garlic, green chilli, ginger and some seasoning. Fry on medium heat for 10 mins or until soft.\n\nSTEP 3\nAdd the spices with the tomato purée, cook for a further 2 mins until fragrant, then add the stock and marinated chicken. Cook for 15 mins, then add any remaining marinade left in the bowl. Simmer for 5 mins, then sprinkle with the toasted almonds. Serve with rice, naan bread, chutney, coriander and lime wedges, if you like.",
+      "cookingTime": "35 minutes",
+      "id": "Spf7DOh"
+    },
+    {
+      "title": "Easy classic lasagne",
+      "ingredients": [
+        "1 tbsp olive oil",
+        "2 rashers smoked streaky bacon",
+        "1 onion , finely chopped",
+        "1 celery stick, finely chopped",
+        "1 medium carrot , grated",
+        "2 garlic cloves , finely chopped",
+        "500g beef mince",
+        "1 tbsp tomato purée",
+        "2 x 400g cans chopped tomatoes",
+        "1 tbsp clear honey",
+        "500g pack fresh egg lasagne sheets",
+        "400ml crème fraîche",
+        "125g ball mozzarella , roughly torn",
+        "50g freshly grated parmesan",
+        "large handful basil leaves , torn (optional)"
+      ],
+      "method": "STEP 1\nHeat the oil in a large saucepan. Use kitchen scissors to snip the bacon into small pieces, or use a sharp knife to chop it on a chopping board. Add the bacon to the pan and cook for just a few mins until starting to turn golden. Add the onion, celery and carrot, and cook over medium heat for 5 mins, stirring occasionally, until softened.\n\nSTEP 2\nAdd the garlic and cook for 1 min, then tip in the mince and cook, stirring and breaking it up with a wooden spoon, for about 6 mins until browned all over.\n\nSTEP 3\nStir in the tomato purée and cook for 1 min, mixing in well with the beef and vegetables. Tip in the chopped tomatoes. Fill each can half full with water to rinse any tomatoes left in the can and add to the pan. Add the honey and season to taste. Simmer for 20 mins.\n\nSTEP 4\nHeat oven to 200C/180C fan/gas 6. To assemble the lasagne, spoon a little of the ragu sauce into the bottom of the roasting tin or casserole dish, spreading the sauce all over the base. Place 2 sheets of lasagne on top of the sauce overlapping to make it fit, then repeat with more sauce and another layer of pasta. Repeat with a further 2 layers of sauce and pasta, finishing with a layer of pasta.\n\nSTEP 5\nPut the crème fraîche in a bowl and mix with 2 tbsp water to loosen it and make a smooth pourable sauce. Pour this over the top of the pasta, then top with the mozzarella. Sprinkle Parmesan over the top and bake for 25–30 mins until golden and bubbling. Serve scattered with basil, if you like.",
+      "cookingTime": "60 minutes",
+      "id": "C2UxtdA"
+    }
+  ]
 }
