@@ -16,7 +16,7 @@ const Recipe = () => {
 				<>
 					<h2 className="page-title">{recipe.title}</h2>
 					<p>Takes {recipe.cookingTime} to cook</p>
-					<ul className="flex flex-wrap">
+					<ul>
 						{recipe.ingredients.map((ingredient) => (
 							<li key={ingredient}>{ingredient}</li>
 						))}

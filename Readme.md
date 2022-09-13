@@ -14,30 +14,30 @@ Finally, the repetitive process of building and deploying the project to product
 
 ## Getting Started
 
-1. Clone the repository
+1. Install JSON-Server
+
+```
+npm install -g json-server
+```
+
+2. Clone the repository
 
 ```
 git clone {{ git repository }} {{ working project folder }}
 ```
 
-2. Open the project in Visual Studio Code
+3. Open the project in Visual Studio Code
 
-3. Open a new terminal in Visual Studio Code and install the project dependencies
+4. Open a new terminal in Visual Studio Code and install the project dependencies
 
 ```
 yarn
 ```
 
-4. Run the project using the Vite.JS server
+5. Run the project using the Vite.JS server
 
 ```
-yarn dev
-```
-
-5. Optimize for production
-
-```
-yarn build
+yarn start
 ```
 
 ## Technologies Used
@@ -45,3 +45,4 @@ yarn build
 1. React.JS
 1. Tailwind CSS
 1. Vite.JS
+1. JSON Server

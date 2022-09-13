@@ -48,7 +48,7 @@ const Create = () => {
 						onChange={(e) => setTitle(e.target.value)}
 						value={title}
 						required
-						className="min-w-full"
+						className="rounded-md"
 					/>
 				</label>
 
@@ -60,7 +60,8 @@ const Create = () => {
 							onChange={(e) => setNewIngredient(e.target.value)}
 							value={newIngredient}
 							ref={ingredientInput}
-							className="min-w-[380px]"
+							className="min-w-[380px] rounded-md"
+							required
 						/>
 						<button onClick={handleAddIngredinet} className="btn">
 							Add
@@ -81,7 +82,7 @@ const Create = () => {
 						value={method}
 						required
 						rows="5"
-						className="min-w-full"
+						className="rounded-md"
 					/>
 				</label>
 
@@ -92,7 +93,7 @@ const Create = () => {
 						onChange={(e) => setCookingTime(e.target.value)}
 						value={cookingTime}
 						required
-						className="min-w-full"
+						className="rounded-md"
 					/>
 				</label>
 
